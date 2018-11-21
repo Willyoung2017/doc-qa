@@ -1,0 +1,10 @@
+article --train_file-index(442 articles) / --dev_file-index(47 articles)
+    title(str); 
+    paragraphs(list):
+        context(str);
+        qas(list):
+            answers(list):
+                answer_start(int);
+                text(str);
+            question(str);
+            id(str);
